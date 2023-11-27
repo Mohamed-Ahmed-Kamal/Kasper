@@ -27,8 +27,9 @@
           <img src="image/logo.png" alt="logo" />
         </a>
         <nav>
-          <i class="fa-solid fa-bars bar"></i>
-          <ul>
+          <i id="open" class="fa-solid fa-bars"></i>
+          <i id="close" class="fa-solid fa-x"></i>
+          <ul id="sidbar">
             <li><a href="#home" class="active">Home</a></li>
             <li><a href="#Services">Services</a></li>
             <li><a href="#Portfolio">Portfolio</a></li>
@@ -44,7 +45,7 @@
     </header>
     <!-- end of header -->
     <!-- start of landing -->
-    <div class="landing">
+    <div id="home" class="landing">
       <div class="overlay"></div>
       <div class="arrow">
         <i class="fa-solid fa-arrow-right"></i>
@@ -71,7 +72,7 @@
       </div>
     </div>
     <!-- end of landing -->
-    <div class="services">
+    <div id="Services" class="services">
       <div class="container">
         <h2 class="spacial-heading">Services</h2>
         <p>
@@ -138,7 +139,7 @@
         </div>
       </div>
     </div>
-    <div class="portfolio">
+    <div id="Portfolio" class="portfolio">
       <div class="container">
         <div>
           <h2 class="spacial-heading">Services</h2>
@@ -232,7 +233,7 @@
         <button>SEE MORE</button>
       </div>
     </div>
-    <div class="about">
+    <div id="About" class="about">
       <div class="container">
         <h2 class="spacial-heading">About Us</h2>
         <p>
@@ -348,7 +349,7 @@
         <p>john doe</p>
       </div>
     </div>
-    <div class="pricing">
+    <div id="Pricing" class="pricing">
       <div class="container">
         <h2 class="spacial-heading">pricing</h2>
         <p>
@@ -436,7 +437,7 @@
       </div>
     </div>
 
-    <div class="contact-us">
+    <div id="Contact" class="contact-us">
       <div class="container">
         <h2 class="spacial-heading">CONTACT US</h2>
         <p>
@@ -484,5 +485,6 @@
         </p>
       </div>
     </div>
+    <script src="main.js"></script>
   </body>
 </html>
